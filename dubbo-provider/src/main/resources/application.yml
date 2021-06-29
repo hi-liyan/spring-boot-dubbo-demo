@@ -1,0 +1,15 @@
+# 服务端口号
+server:
+  port: 8081
+# 服务名称
+spring:
+  application:
+    name: dubbo-provider
+
+dubbo:
+  application:
+    # Dubbo服务名称
+    name: dubbo-provider
+  registry:
+    # Dubbo注册地址
+    address: nacos://121.196.189.156:8848
