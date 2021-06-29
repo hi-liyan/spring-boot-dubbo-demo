@@ -4,8 +4,12 @@ server:
 spring:
   application:
     name: dubbo-consumer
+
 dubbo:
   application:
     name: dubbo-consumer
   registry:
     address: nacos://121.196.189.156:8848
+  consumer:
+    # 负载均衡策略
+    loadbalance: roundrobin

@@ -8,8 +8,14 @@ spring:
 
 dubbo:
   application:
-    # Dubbo服务名称
+    # 当前应用名称
     name: dubbo-provider
+    # 当前应用的版本
+    version: 1.0.0
+    # 应用负责人，用于服务治理，请填写负责人公司邮箱前缀
+    owner: liyan
+    # 日志输出方式，可选：slf4j,jcl,log4j,log4j2,jdk
+    logger: slf4j
   registry:
-    # Dubbo注册地址
+    # 注册中心服务器地址
     address: nacos://121.196.189.156:8848
