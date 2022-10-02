@@ -3,13 +3,7 @@
 ## 简介
 
 本文介绍Spring Boot项目整合Dubbo完成跨服务调用，使用Nacos作为服务注册中心。  
-博客原文：[Dubbo 快速开始](https://www.shiguangping.com/spring-boot-dubbo.html)
-
-<br>
-
-## 仓库
-
-示例代码托管在Gitee：[spring-boot-dubbo-demo 项目地址](https://gitee.com/ENNRIAAA/spring-boot-dubbo-demo.git)
+博客地址：[Dubbo 快速开始](hhttps://www.surcode.cn/docs/%E5%BE%AE%E6%9C%8D%E5%8A%A1/dubbo-quick-start/)
 
 <br>
 
@@ -93,7 +87,7 @@
 
    启动`dubbo-provider`项目，并打开Nacos控制台，可以看到服务已经注册到Nacos中。
 
-   ![image-20210629230357591](https://images.shiguangping.com/imgs/20210629230358.png)
+   ![image-20210629230357591](https://upyun1.surcode.cn/imgs/20210629230358.png)
 
 5. 创建服务消费者项目`dubbo-consumer`，并添加如上依赖。
 
@@ -141,17 +135,10 @@
 
    使用Postman测试`dubbo-consumer`的test接口。观察返回值，说明已经成功调用了`dubbo-provider`服务。
 
-   ![image-20210629231928172](https://images.shiguangping.com/imgs/20210629231928.png)
-
-
-
-<br>
-
+   ![image-20210629231928172](https://upyun1.surcode.cn/imgs/20210629231928.png)
 
 
 ## 参考
-
-### Dubbo 配置参考
 
 - [Dubbo v2.7 配置文档](https://dubbo.apache.org/zh/docs/v2.7/user/references/xml/)
 
